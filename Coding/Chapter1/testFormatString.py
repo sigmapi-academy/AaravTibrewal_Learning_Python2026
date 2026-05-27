@@ -1,0 +1,6 @@
+score = int(input('Enter your score: '))
+print(f"Result: {'Pass' if score >= 50 else 'Fail'}")
+print(f"{score:03d}")
+print(f"{score:3d}")
+print(f"{10000000:,}")
+print(f"{score:b}")
